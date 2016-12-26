@@ -8,6 +8,7 @@
         "**/*.js.map": true,
         "**/*.js": { "when" : "$(basename).ts" },
         "bin": true,
-        "obj": true
+        "obj": true,
+        "npm-debug.log": true
     }
 }
