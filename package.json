@@ -4,8 +4,8 @@
   "description": "First Angular2 & ASPNET Core application",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"dotnet run\" ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && concurrently \"tsc -w\" \"dotnet run\" ", //start is special, so use 'npm start'
+    "watch": "tsc && concurrently \"tsc -w\" \"dotnet watch run\" " //use 'npm run watch'
   },
   "author": "Tom Wire",
   "license": "ISC",

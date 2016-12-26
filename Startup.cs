@@ -8,6 +8,8 @@ namespace AngularFirst
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+
+            
         }
     }
 }
